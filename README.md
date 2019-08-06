@@ -1,5 +1,5 @@
-# Eternus-React-Components
-
+# ![](\main\src\eternus.png) Eternus-React-Components
+www.eternussolutions.com
 [![NPM](https://img.shields.io/npm/v/react-select.svg)](https://www.npmjs.com/package/react-bootstrap)
 
 
@@ -11,8 +11,6 @@ React components inspired by react-bootstrap.
  - Login Component
  - File Upload
  - Export to Excel
- - Modal Component
- - Menu Component
 
  
 # Install
@@ -179,7 +177,7 @@ export default class Sample extends Component {
 					browseButtonTitle = "Browse"
 					uploadButtonTitle = "Upload"
 					accept = ".xls,.xlsx,.txt"
-					size = {1} // size in kb
+					size = {1}
 					multiple = {true}
                     variant = "success"
                     fileResponse = {this.getFiles}
